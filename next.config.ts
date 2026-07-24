@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  basePath: "/nfc",
+  assetPrefix: "/nfc",
 };
 
 export default nextConfig;
